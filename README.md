@@ -4,8 +4,8 @@
 このプロジェクトはdiscord上でChatGPTに好きなキャラクターになりきってもらって、会話が可能なbotです。
 ## 使い方
 1. Pythonをインストール。  
-1. `python3 -m pip install -U pip install langchain`をコマンドラインで実行する。  
-1. `python3 -m pip install -U pip install openai`をコマンドラインで実行する。    
+1. `python3 -m pip install -U langchain`をコマンドラインで実行する。  
+1. `python3 -m pip install -U openai`をコマンドラインで実行する。    
 1. `python3 -m pip install -U discord.py`をコマンドラインで実行する。  
 1. ソースコード内の`character_setting = "YourFavoriteSystemPrompt"`の`YourFavoriteSystemPrompt`を[この記事](https://qiita.com/tkmrsksk/items/7362f183138dfb324c50#%E8%A8%AD%E5%AE%9A%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88)を参考に、書き換える。  
 1. ソースコード内の`os.environ["OPENAI_API_KEY"] = "YourAPIKey"`の`YourAPIKey`を[このサイト](https://laboratory.kazuuu.net/how-to-get-an-openai-api-key/)を参考に取得したAPIキーに置き換える。  
